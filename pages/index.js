@@ -1,9 +1,12 @@
 import Head from 'next/head';
 import Image from 'next/image';
+import Aboutpage from '../components/Aboutpage';
 import Homepage from '../components/Homepage';
+import Info from '../components/Info';
 import Landing from '../components/Landing';
 import Menupage from '../components/Menupage';
 import Navbar from '../components/Navbar';
+import Testimonialpage from '../components/Testimonialpage';
 
 export default function Home() {
   return (
@@ -15,7 +18,10 @@ export default function Home() {
       </Head>
       <Navbar />
       <Homepage />
+      <Info />
       <Menupage />
+      <Aboutpage />
+      <Testimonialpage />
     </div>
   );
 }

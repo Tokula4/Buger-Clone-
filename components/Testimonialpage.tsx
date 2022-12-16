@@ -1,21 +1,16 @@
 import React from 'react'
 import Image from 'next/image'
-import {MdOutlineFastfood} from 'react-icons/md'
 import { AiOutlineStar } from 'react-icons/ai'
-import Button from './Button'
 
-function Menupage() {
+function Testimonialpage() {
   return (
     <>
-    <div className="mb-8 text-center ">
-    <div  className="items-center justify-center " >
+    <div className="mb-8 text-center">
+        <div  className="items-center justify-center " >
         <img src="/images/title-img.png"  objectFit="contain"    />
 
         </div>
-        <h1 className=" text-white text-[40px]   font-bold " >
-        <Button title="  Our Menu   " /> 
-
-        </h1>
+        <h1  className="font-bold text-white text-[40px] " >Testimonial</h1>
          
          
       </div>
@@ -25,11 +20,15 @@ function Menupage() {
 
                       <div className="flex flex-col items-center justify-center">
                         
-                  
-                  <img src="/images/product-2.png" alt="img"
+                  <div className="w-20 h-20 overflow-hidden border-2 rounded-full">
+                  <img src="/images/pick-1.JPG" layout="fill" alt="img"
                         className="object-cover object-center w-full h-full" />
-                
-                     
+                </div>
+                          
+                          <h5 className="p-5 font-bold text-white uppercase ">FREE DELIVERY</h5>
+                          <p className="text-sm text-white "> how to draw a burger. A burger is a delicious dish that is a 
+                          <br></br> great idea for a drawing.</p>
+                                   
                 <div className="flex mx-2 text-[#e2cc24] text-[30px]  " >
                              <AiOutlineStar/>
                           
@@ -39,40 +38,6 @@ function Menupage() {
                             <AiOutlineStar/>
                             <AiOutlineStar/>
                           </div>
-                          <h5 className="p-5 font-bold text-white uppercase ">Cheeze Buger </h5>
-                          <p className="text-sm text-gray-600 ">$50.00</p>
-                          <Button title="Add to Cart  " /> 
-
-                      </div>
-
-                      
-                  </div>
-
-                  
-              </div>
-
-              <div className="p-2 text-gray-800 rounded-lg shadow-md">
-                  <div className="">
-
-                      <div className="flex flex-col items-center justify-center">
-                        
-               
-                  <img src="images/product-3.png" alt="img"
-                        className="object-cover object-center w-full h-full" />
-               
-                          
-                          <div className="flex mx-2 text-[#e2cc24] text-[30px]  " >
-                             <AiOutlineStar/>
-                          
-                            <AiOutlineStar/>
-                            <AiOutlineStar/>
-                            <AiOutlineStar/>
-                            <AiOutlineStar/>
-                            <AiOutlineStar/>
-                          </div>
-                          <h5 className="p-5 font-bold text-white uppercase ">Cheeze Buger </h5>
-                          <p className="text-sm text-gray-600 ">$50.00</p>
-                          <Button title="Add to Cart  " /> 
 
                       </div>
 
@@ -87,11 +52,15 @@ function Menupage() {
 
                       <div className="flex flex-col items-center justify-center">
                         
-              
-                  <img src="/images/product-6.png" alt="img"
+                  <div className="w-20 h-20 overflow-hidden bg-[#e2cc24] border-2 rounded-full">
+                  <img src="/images/pick-3.JPG" layout="fill" alt="img"
                         className="object-cover object-center w-full h-full" />
-                
-                           
+                </div>
+                          
+                          <h5 className="p-5 font-bold text-white uppercase ">BEST QUALITY</h5>
+                          <p className="text-sm text-white "> how to draw a burger. A burger is a delicious dish that is a 
+                          <br></br> great idea for a drawing.</p>
+                                   
                 <div className="flex mx-2 text-[#e2cc24] text-[30px]  " >
                              <AiOutlineStar/>
                           
@@ -101,9 +70,39 @@ function Menupage() {
                             <AiOutlineStar/>
                             <AiOutlineStar/>
                           </div>
-                          <h5 className="p-5 font-bold text-white uppercase ">Cheeze Buger </h5>
-                          <p className="text-sm text-gray-600 ">$50.00</p>
-                          <Button title="Add to Cart  " /> 
+
+                      </div>
+
+                      
+                  </div>
+
+                  
+              </div>
+
+              <div className="p-4 text-gray-800 rounded-lg shadow-md">
+                  <div className="mb-2">
+
+                      <div className="flex flex-col items-center justify-center">
+                        
+                  <div className="w-20 h-20 overflow-hidden bg-[#e2cc24] border-2 rounded-full">
+                  <img src="/images/pick-2.JPG" layout="fill" alt="img"
+                        className="object-cover object-center w-full h-full" />
+                </div>
+                          
+                          <h5 className="p-5 font-bold text-white uppercase ">24/7 SUPPORT</h5>
+                          <p className="text-sm text-white "> how to draw a burger. A burger is a delicious dish that is a 
+                          <br></br> <span  className="mx-5 text-center" >great idea for a drawing.</span></p>
+
+                                   
+                <div className="flex mx-2 text-[#e2cc24] text-[30px]  " >
+                             <AiOutlineStar/>
+                          
+                            <AiOutlineStar/>
+                            <AiOutlineStar/>
+                            <AiOutlineStar/>
+                            <AiOutlineStar/>
+                            <AiOutlineStar/>
+                          </div>
 
                       </div>
 
@@ -115,8 +114,7 @@ function Menupage() {
              
         
           </div></>
-
   )
 }
 
-export default Menupage
+export default Testimonialpage
